@@ -95,3 +95,8 @@ git commit highlighted:
     insert("git add ")
     edit.paste()
     insert("\ngit commit\n")
+
+
+git amend: "git commit --amend\n"
+git force push: "git push --force\n"
+git diff staged: "git diff --staged\n"

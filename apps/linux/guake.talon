@@ -5,7 +5,6 @@ app: Guake
 #quake doesn't support the file_manager stuff
 #tag(): user.file_manager
 tag(): user.git
-tag(): user.kubectl
 tag(): user.tabs
 tag(): terminal
 

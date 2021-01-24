@@ -3,7 +3,7 @@ from typing import Set
 from talon import Module, Context, actions, app
 import sys
 
-default_alphabet = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
+default_alphabet = "air back cap dip each fine gone harp sit jury crunch look mad near odd pit quench red sun trap urge vest win plex yank zip".split(
     " "
 )
 letters_string = "abcdefghijklmnopqrstuvwxyz"
@@ -110,6 +110,7 @@ ctx.lists["self.modifier_key"] = {
     "alt": "alt",  #'alter': 'alt',
     "command": "cmd",
     "control": "ctrl",  #'troll':   'ctrl',
+    "troll": "ctrl",
     "option": "alt",
     "shift": "shift",  #'sky':     'shift',
     "super": "super",
@@ -144,7 +145,8 @@ punctuation_words = {
 }
 symbol_key_words = {
     "dot": ".",
-    "quote": "'",
+    "sing quote": "'",
+    "single quote": "'",
     "L square": "[",
     "left square": "[",
     "square": "[",
@@ -166,10 +168,12 @@ symbol_key_words = {
     "left paren": "(",
     "R paren": ")",
     "right paren": ")",
+    "close paren": ")",
     "brace": "{",
     "left brace": "{",
     "R brace": "}",
     "right brace": "}",
+    "close brace": "}",
     "angle": "<",
     "left angle": "<",
     "less than": "<",
@@ -184,8 +188,8 @@ symbol_key_words = {
     "caret": "^",
     "amper": "&",
     "pipe": "|",
-    "dubquote": '"',
-    "double quote": '"',
+    "quote": '"',
+    "quo": '"'
 }
 
 # make punctuation words also included in {user.symbol_keys}
@@ -213,9 +217,13 @@ simple_keys = [
 ]
 
 alternate_keys = {
-    "delete": "backspace",
+    "dell": "backspace",
     "forward delete": "delete",
-    #'junk': 'backspace',
+    "scape": "escape",
+    "skip": "escape",
+    "sup": "space",
+    "whack": "\\"
+    # 'junk': 'backspace',
 }
 # mac apparently doesn't have the menu key.
 if app.platform in ("windows", "linux"):
