@@ -16,7 +16,7 @@ vim save:
 vim save quit:
   key(esc)
   insert("ZZ")
-close buffer:
+buffer close:
   key(esc)
   insert(":bd")
   key(enter)
@@ -51,6 +51,9 @@ project:
   key(ctrl-b)
 recent files:
   key(ctrl-b)
+all files:
+  key(ctrl-f)
+  key(ctrl-f)
 auto format: "=="
 add to end: "Go"
 add to top: "ggO"
@@ -65,3 +68,5 @@ delete last char:
 buffer <number>:
   key(esc)
   ":buffer {number}\n"
+
+easy: "\w"

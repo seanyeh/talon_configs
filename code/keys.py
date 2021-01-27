@@ -152,6 +152,7 @@ symbol_key_words = {
     "square": "[",
     "R square": "]",
     "right square": "]",
+    "close square": "]",
     "slash": "/",
     "backslash": "\\",
     "minus": "-",
