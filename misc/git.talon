@@ -100,3 +100,4 @@ git commit highlighted:
 git amend: "git commit --amend\n"
 git force push: "git push --force\n"
 git diff staged: "git diff --staged\n"
+git push everything: "git add . && git commit && git push\n"
