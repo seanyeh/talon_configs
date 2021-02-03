@@ -12,3 +12,11 @@ class user_actions:
         actions.user.paste(result)
         actions.edit.up()
         actions.key("tab")
+
+@mod.action_class
+class module_actions:
+    def code_variable(text: str):
+        """ variable value in braces """
+        formatted_text = actions.user.formatted_text(text, "SNAKE_CASE")
+        result = f"${{{formatted_text}}}"
+        actions.user.paste(result)

@@ -7,3 +7,5 @@ tag(): user.code_comment
 tag(): user.code_generic
 
 ^funky <user.text>$: user.code_public_function(text)
+
+^variable <user.text>$: user.code_variable(text)
