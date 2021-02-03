@@ -72,5 +72,11 @@ buffer <number>:
 
 easy: "\w"
 
+snip edit:
+  key(esc)
+  ":UltiSnipsEdit\n"
+
+snip next: key(ctrl-j)
+
 park alt:
   "\\ra"
