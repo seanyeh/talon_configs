@@ -72,6 +72,5 @@ buffer <number>:
 
 easy: "\w"
 
-park alternate:
-  key(esc)
-  "\ra"
+park alt:
+  "\\ra"
