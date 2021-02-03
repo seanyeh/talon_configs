@@ -25,6 +25,7 @@ yay update: "yay -Syu\n"
 change maud executable: "chmod +x "
 
 source aliases: "source ~/.aliases"
+confirm: "y\n"
 
 command grep: "grep "
 command ock: "awk "
