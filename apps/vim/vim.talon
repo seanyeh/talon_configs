@@ -57,7 +57,7 @@ all files:
 auto format: "=="
 add to end: "Go"
 add to top: "ggO"
-delete line: "dd"
+(dell | delete) line: "dd"
 line: "gg"
 
 
