@@ -71,3 +71,7 @@ buffer <number>:
   ":buffer {number}\n"
 
 easy: "\w"
+
+park alternate:
+  key(esc)
+  "\ra"
