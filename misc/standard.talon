@@ -28,3 +28,7 @@ wipe: key(backspace)
 slap:
 	edit.line_end()
 	key(enter)
+slop:
+    edit.up()
+    edit.line_end()
+    key(enter)
