@@ -32,6 +32,7 @@ redo:
 change: "c"
 insert: "i"
 inner: "i"
+ship insert: "I"
 delete: "d"
 until: "t"
 paste: "p"
