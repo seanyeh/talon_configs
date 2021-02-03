@@ -126,7 +126,7 @@ formatters_dict = {
     "DASH_SEPARATED": words_with_joiner("-"),
     "TERMINAL_DASH_SEPARATED": (
         NOSEP,
-        first_vs_rest(lambda w: " --" + w.lower(), lambda w: "-" + w.lower()),
+        first_vs_rest(lambda w: "--" + w.lower(), lambda w: "-" + w.lower()),
     ),
     "DOUBLE_COLON_SEPARATED": words_with_joiner("::"),
     "TITLE_DOUBLE_COLON_SEPARATED": (
