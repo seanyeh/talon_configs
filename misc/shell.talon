@@ -1,6 +1,6 @@
 tag: terminal
 -
-(else | ellis | L S): "ls\n"
+ellis: "ls\n"
 (cd | seedy | city): "cd "
 see pea: "cp"
 (make dir | mick dir): "mkdir -p "
