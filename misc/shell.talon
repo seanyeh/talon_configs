@@ -24,7 +24,10 @@ yay update: "yay -Syu\n"
 
 change maud executable: "chmod +x "
 
-source aliases: "source ~/.aliases"
+source aliases: "source ~/.aliases\n"
+aliases edit: "nvim ~/.aliases\n"
+n see aliases edit: "nvim ~/.aliases_nc\n"
+
 confirm: "y\n"
 
 command grep: "grep "

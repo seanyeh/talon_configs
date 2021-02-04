@@ -81,7 +81,7 @@ snip next: key(ctrl-j)
 park alt:
   "\\ra"
 
-macro: "@@"
+macro: "@q"
 
 # some code things, may move elsewhere
 binding pry: "binding.pry"
