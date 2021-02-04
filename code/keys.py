@@ -223,7 +223,8 @@ alternate_keys = {
     "scape": "escape",
     "skip": "escape",
     "sup": "space",
-    "whack": "\\"
+    "whack": "\\",
+    "semi": ";"
     # 'junk': 'backspace',
 }
 # mac apparently doesn't have the menu key.
