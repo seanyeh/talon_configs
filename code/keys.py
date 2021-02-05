@@ -219,7 +219,7 @@ simple_keys = [
 
 alternate_keys = {
     "dell": "backspace",
-    "sack": "backspace",
+    "ba": "backspace",
     "forward delete": "delete",
     "scape": "escape",
     "skip": "escape",
