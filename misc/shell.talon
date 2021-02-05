@@ -9,6 +9,7 @@ parent: ".."
 kill: key(ctrl-c)
 shell exit: key(ctrl-d)
 shell paste: key(ctrl-shift-v)
+shell copy: key(ctrl-shift-c)
 are sea: "rc"
 
 home dir: "~/"
