@@ -16,6 +16,10 @@ vim save:
 vim save quit:
   key(esc)
   insert("ZZ")
+well quench:
+  key(esc)
+  insert("ZZ")
+
 buffer close:
   key(esc)
   insert(":bd")
