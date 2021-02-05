@@ -109,3 +109,8 @@ git rebase interactive: "git rebase -i master"
 git uncommit: "git uncommit "
 git unadd: "git unadd "
 git identity: "git identity\n"
+
+# menuify commands
+git menu add: "git customadd"
+git menu checkout: "git customcheckout"
+git menu checkout unwanted: "git customcheckoutunwanted"
