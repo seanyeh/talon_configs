@@ -16,6 +16,7 @@ home dir: "~/"
 home hidden: "~/."
 
 last arg: "!$"
+last command: "!!\n"
 
 vim config edit: "cd ~/vimrc && v\n"
 talon config edit: "cd ~/.talon/user/talon_configs && v\n"
