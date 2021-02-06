@@ -89,3 +89,4 @@ macro: "@q"
 
 # some code things, may move elsewhere
 binding pry: "binding.pry"
+sha bang bash: "#!/bin/bash"
