@@ -15,7 +15,7 @@ are sea: "rc"
 home dir: "~/"
 home hidden: "~/."
 
-last arg: "!$"
+last arg: "!$\n"
 last command: "!!\n"
 
 vim config edit: "cd ~/vimrc && v\n"
