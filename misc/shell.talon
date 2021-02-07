@@ -12,7 +12,7 @@ shell paste: key(ctrl-shift-v)
 shell copy: key(ctrl-shift-c)
 are sea: "rc"
 
-home dir: "~/"
+home directory: "~/"
 home hidden: "~/."
 
 last arg: "!$\n"
