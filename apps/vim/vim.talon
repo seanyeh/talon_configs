@@ -68,6 +68,7 @@ add to end: "Go"
 add to top: "ggO"
 (dell | delete) line: "dd"
 line: "gg"
+definition: "g]"
 
 
 delete last char:
