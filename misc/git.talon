@@ -43,8 +43,9 @@ git push origin: "git push origin "
 git push up stream origin: "git push -u origin"
 git push <user.text>: "git push {text} "
 git push tags: "git push --tags\n"
-git rebase: "git rebase\n"
+# git rebase: "git rebase\n"
 git rebase continue: "git rebase --continue"
+git rebase abort: "git rebase --abort"
 git rebase skip: "git rebase --skip"
 git remove: "git rm "
 git (remove|delete) branch: "git branch -d "
@@ -97,7 +98,7 @@ git commit highlighted:
     edit.paste()
     insert("\ngit commit\n")
 
-
+git log stat: "git log --stat\n"
 git amend: "git commit --amend\n"
 git force push: "git push --force\n"
 git push force: "git push --force\n"
