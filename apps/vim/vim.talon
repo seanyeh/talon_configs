@@ -50,6 +50,10 @@ system ship paste: '\"+P'
 
 duplicate: "Yp"
 
+select all:
+  key(esc)
+  "ggVG"
+
 last file: key(ctrl-6)
 project:
   key(ctrl-b)
