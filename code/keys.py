@@ -222,7 +222,7 @@ alternate_keys = {
     "forward delete": "delete",
     "scape": "escape",
     "skip": "escape",
-    "sup": "space",
+    "sa": "space",
     "whack": "\\",
     "semi": ";"
     # 'junk': 'backspace',
