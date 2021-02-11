@@ -110,6 +110,7 @@ git rebase interactive: "git rebase -i master"
 git uncommit: "git uncommit "
 git unadd: "git unadd "
 git identity: "git identity\n"
+git add intent: "git add --intent-to-add "
 
 # menuify commands
 git menu add: "git customadd"
