@@ -34,6 +34,7 @@ n see aliases edit: "nvim ~/.aliases_nc\n"
 go to home: "cd ~/\n"
 go to talon: "cd ~/.talon/user/talon_configs\n"
 go to vim are see: "cd ~/vimrc\n"
+go to dot vim: "cd ~/.vim\n"
 
 go to stuff: "cd ~/stuff\n"
 go to devel: "cd ~/stuff/devel\n"
