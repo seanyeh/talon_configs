@@ -5,18 +5,22 @@ mod = Module()
 ctx = Context()
 
 mod.list("vocabulary", desc="additional vocabulary words")
+mod.list("private_vocabulary", desc="additional private vocabulary words")
 
-@mod.capture(rule="({user.vocabulary} | <word>)")
+@mod.capture(rule="({user.private_vocabulary} | {user.vocabulary} | <word>)")
 def word(m) -> str:
     try:
-        return m.vocabulary
+        return m.private_vocabulary
     except AttributeError:
-        return " ".join(actions.dictate.replace_words(actions.dictate.parse_words(m.word)))
+        try:
+            return m.vocabulary
+        except AttributeError:
+            return " ".join(actions.dictate.replace_words(actions.dictate.parse_words(m.word)))
 
-@mod.capture(rule="({user.vocabulary} | <phrase>)+")
+@mod.capture(rule="({user.private_vocabulary} | {user.vocabulary} | <phrase>)+")
 def text(m) -> str: return format_phrase(m)
 
-@mod.capture(rule="({user.vocabulary} | {user.punctuation} | <phrase>)+")
+@mod.capture(rule="({user.private_vocabulary} | {user.vocabulary} | {user.punctuation} | <phrase>)+")
 def prose(m) -> str: return format_phrase(m)
 
 # TODO: unify this formatting code with the dictation formatting code, so that
@@ -114,4 +118,9 @@ bind_list_to_csv(
     "additional_words.csv",
     csv_headers=("Word(s)", "Spoken Form (If Different)"),
     default_values=_default_vocabulary,
+)
+bind_list_to_csv(
+    "user.private_vocabulary",
+    "../private/vocabulary.csv",
+    csv_headers=("Word(s)", "Spoken Form (If Different)")
 )
