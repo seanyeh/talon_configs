@@ -9,6 +9,7 @@ import threading
 # NOTE: This method requires this module to be one folder below the top-level
 #   knausj folder.
 SETTINGS_DIR = Path(__file__).parents[1] / "settings"
+PRIVATE_SETTINGS_DIR = Path(__file__).parents[1] / "private"
 
 if not SETTINGS_DIR.is_dir():
     os.mkdir(SETTINGS_DIR)
@@ -148,3 +149,4 @@ def bind_word_map_to_csv(
 
 
 fs.watch(str(SETTINGS_DIR), _update_lists)
+fs.watch(str(PRIVATE_SETTINGS_DIR), _update_lists)
