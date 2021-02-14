@@ -1,6 +1,5 @@
 tag: terminal
 -
-vim: "vim"
 vim error:
   key(esc)
   insert(":cq")
