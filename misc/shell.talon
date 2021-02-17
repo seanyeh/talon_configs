@@ -36,8 +36,10 @@ go to talon: "cd ~/.talon/user/talon_configs\n"
 go to vim are see: "cd ~/vimrc\n"
 go to dot vim: "cd ~/.vim\n"
 
+# Move somewhere else?
 go to stuff: "cd ~/stuff\n"
 go to devel: "cd ~/stuff/devel\n"
+go to dotfiles: "cd ~/stuff/devel/dotfiles\n"
 go to projects: "cd ~/stuff/devel/projects\n"
 
 confirm: "y\n"
