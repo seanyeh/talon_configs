@@ -30,6 +30,8 @@ source aliases: "source ~/.aliases\n"
 aliases edit: "nvim ~/.aliases\n"
 n see aliases edit: "nvim ~/.aliases_nc\n"
 
+copy current directory: "pwd | xclip -selection clipboard\n"
+
 # Favorites
 go to home: "cd ~/\n"
 go to talon: "cd ~/.talon/user/talon_configs\n"
