@@ -91,6 +91,14 @@ park alt:
 
 macro: "@q"
 
+copy filename:
+    key(esc)
+    ":let @+ = expand('%:p')\n"
+
+copy directory:
+    key(esc)
+    ":let @+ = expand('%:h')\n"
+
 # some code things, may move elsewhere
 binding pry: "binding.pry"
 sha bang bash: "#!/bin/bash"
