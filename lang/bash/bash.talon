@@ -10,10 +10,15 @@ tag(): user.code_generic
 
 ^variable <user.text>$: user.code_variable(text)
 
-# Should this be a snippet?
 action(user.code_state_if):
-    insert("if [  ]; then\nfi")
-    key(up)
-    key(right)
-    key(right)
-    key(right)
+    insert("if")
+    key(tab)
+
+# Custom commands
+^state one line if$:
+    insert("oif")
+    key(tab)
+
+^state one line if not$:
+    insert("oifn")
+    key(tab)
