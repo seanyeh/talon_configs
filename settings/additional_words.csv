@@ -21,7 +21,6 @@ web
 desktop
 mouse
 bin
-keys
 node
 repo
 dotfiles
@@ -34,3 +33,4 @@ shell
 arg
 args
 filename
+TODO,to do
