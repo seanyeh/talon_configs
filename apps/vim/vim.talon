@@ -79,6 +79,7 @@ buffer <number>:
   ":buffer {number}\n"
 
 easy: "\w"
+cheesy: "\c"
 
 snip edit:
   key(esc)
