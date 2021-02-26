@@ -53,33 +53,34 @@ select all:
   key(esc)
   "ggVG"
 
+# Project navigation
 last file: key(ctrl-6)
 project:
-  key(ctrl-b)
-  key(ctrl-b)
+  key(ctrl-space)
+  key(ctrl-space)
 recent files:
-  key(ctrl-b)
+  user.run_normal("<c-space>")
 all files:
   key(ctrl-f)
   key(ctrl-f)
+
 auto format: "=="
-add to end: "Go"
-add to top: "ggO"
-(dell | delete) line: "dd"
 line: "gg"
 definition: "g]"
 
-
-delete last char:
-  key(esc)
-  "$x"
-
+# File navigation
 buffer <number>:
-  key(esc)
-  ":buffer {number}\n"
+  user.run_normal(":buffer {number}\n")
+easy:
+  user.run_normal("\w")
+cheesy:
+  user.run_normal("\c")
 
-easy: "\w"
-cheesy: "\c"
+# Editing
+add to end: user.run_normal("Go")
+add to top: user.run_normal("ggO")
+delete last char: user.run_normal_smart("$x")
+
 
 snip edit:
   key(esc)
@@ -103,3 +104,4 @@ copy directory:
 # some code things, may move elsewhere
 binding pry: "binding.pry"
 sha bang bash: "#!/bin/bash"
+
