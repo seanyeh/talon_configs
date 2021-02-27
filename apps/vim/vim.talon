@@ -63,6 +63,9 @@ recent files:
 all files:
   key(ctrl-f)
   key(ctrl-f)
+# temporary, will change to a plugin
+alternate:
+  user.run_normal(":call CustomAlternate()<cr>")
 
 auto format: "=="
 line: "gg"
