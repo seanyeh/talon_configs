@@ -37,6 +37,7 @@ go to home: "cd ~/\n"
 go to talon: "cd ~/.talon/user/talon_configs\n"
 go to vim are see: "cd ~/vimrc\n"
 go to dot vim: "cd ~/.vim\n"
+go to snippets: "cd ~/.vim/UltiSnips\n"
 
 # Move somewhere else?
 go to stuff: "cd ~/stuff\n"
