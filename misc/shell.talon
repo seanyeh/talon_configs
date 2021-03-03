@@ -47,6 +47,12 @@ go to projects: "cd ~/stuff/devel/projects\n"
 
 confirm: "y\n"
 
+# Vocabulary
+vocabulary add:
+  user.system_command("bash -c 'source ~/.bashrc; _vocabulary_add settings/additional_words.csv'")
+vocabulary add private:
+  user.system_command("bash -c 'source ~/.bashrc; _vocabulary_add private/vocabulary.csv'")
+
 command grep: "grep "
 command ock: "awk "
 command ps: "ps aux "
