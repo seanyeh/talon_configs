@@ -47,6 +47,14 @@ go to projects: "cd ~/stuff/devel/projects\n"
 
 confirm: "y\n"
 
+# rails stuff, possibly move elsewhere?
+rake DB migrate: "rake db:migrate\n"
+rake test DB migrate: "RAILS_ENV=test rake db:migrate\n"
+rake migrate all: "rake db:migrate && RAILS_ENV=test rake db:migrate\n"
+rake DB rollback: "rake db:rollback STEP="
+rake test DB rollback: "RAILS_ENV=test rake db:rollback STEP="
+
+
 # Vocabulary
 vocabulary add:
   user.system_command("bash -c 'source ~/.bashrc; _vocabulary_add settings/additional_words.csv'")
