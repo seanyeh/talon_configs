@@ -45,7 +45,9 @@ def vim_set_mode(mode):
 @ctx.action_class("win")
 class win_actions:
     def filename():
-        return vim_helper_expr("bufname()")
+        # filename = vim_helper_expr("bufname()")
+        # work-in-progress, this is glitchy on mac
+        return ""
 
     def file_ext():
         return actions.win.filename().split(".")[-1]

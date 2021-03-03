@@ -59,7 +59,8 @@ project:
   key(ctrl-space)
   key(ctrl-space)
 recent files:
-  user.run_normal("<c-space>")
+  key(ctrl-space)
+  # user.run_normal("<c-space>")
 all files:
   key(ctrl-f)
   key(ctrl-f)
@@ -75,7 +76,8 @@ definition: "g]"
 buffer <number>:
   user.run_normal(":buffer {number}\n")
 easy:
-  user.run_normal("\w")
+  "\w"
+  # user.run_normal("\w")
 cheesy:
   user.run_normal("\c")
 
