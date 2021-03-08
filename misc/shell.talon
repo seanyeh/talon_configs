@@ -48,6 +48,7 @@ go to projects: "cd ~/stuff/devel/projects\n"
 confirm: "y\n"
 
 # rails stuff, possibly move elsewhere?
+rake DB status: "rake db:migrate:status\n"
 rake DB migrate: "rake db:migrate\n"
 rake test DB migrate: "RAILS_ENV=test rake db:migrate\n"
 rake migrate all: "rake db:migrate && RAILS_ENV=test rake db:migrate\n"
