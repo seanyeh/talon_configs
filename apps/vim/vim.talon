@@ -86,6 +86,9 @@ add to end: user.run_normal("Go")
 add to top: user.run_normal("ggO")
 delete last char: user.run_normal_smart("$x")
 
+complete:
+  key(down)
+  key(enter)
 
 snip edit:
   key(esc)
