@@ -55,6 +55,20 @@ rake migrate all: "rake db:migrate && RAILS_ENV=test rake db:migrate\n"
 rake DB rollback: "rake db:rollback STEP="
 rake test DB rollback: "RAILS_ENV=test rake db:rollback STEP="
 
+# Generic formatters
+attribute <user.text>:
+  insert(user.formatted_text(text, "SNAKE_CASE"))
+  insert(": ")
+same attribute <user.text>:
+  insert(user.formatted_text(text, "SNAKE_CASE"))
+  insert(": ")
+  insert(user.formatted_text(text, "SNAKE_CASE"))
+symbol <user.text>:
+  insert(":")
+  insert(user.formatted_text(text, "SNAKE_CASE"))
+pretzel <user.text>:
+  insert("&:")
+  insert(user.formatted_text(text, "SNAKE_CASE"))
 
 # Vocabulary
 vocabulary add:
