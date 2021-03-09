@@ -31,6 +31,9 @@ empty escaped string:
 (inside parens | args):
 	insert("()")
 	key(left)
+index: 
+	insert("[]") 
+	key(left)
 inside (squares | list): 
 	insert("[]") 
 	key(left)
