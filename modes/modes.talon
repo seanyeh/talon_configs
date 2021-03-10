@@ -29,3 +29,8 @@ talon mode: user.talon_mode()
     mode.disable("sleep")
     mode.disable("dictation")
     mode.enable("command")
+
+key(f5):
+    speech.enable()
+key(f6):
+    speech.disable()
