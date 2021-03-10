@@ -44,6 +44,8 @@ go to stuff: "cd ~/stuff\n"
 go to devel: "cd ~/stuff/devel\n"
 go to dotfiles: "cd ~/stuff/devel/dotfiles\n"
 go to projects: "cd ~/stuff/devel/projects\n"
+go to PR: "propen\n"
+go to jura: "jira\n"
 
 confirm: "y\n"
 
