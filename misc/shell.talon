@@ -58,10 +58,10 @@ rake DB rollback: "rake db:rollback STEP="
 rake test DB rollback: "RAILS_ENV=test rake db:rollback STEP="
 
 # Generic formatters
-attribute <user.text>:
+adder <user.text>:
   insert(user.formatted_text(text, "SNAKE_CASE"))
   insert(": ")
-same attribute <user.text>:
+same adder <user.text>:
   insert(user.formatted_text(text, "SNAKE_CASE"))
   insert(": ")
   insert(user.formatted_text(text, "SNAKE_CASE"))
