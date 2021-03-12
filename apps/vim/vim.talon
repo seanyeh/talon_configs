@@ -79,7 +79,11 @@ easy:
   "\w"
   # user.run_normal("\w")
 cheesy:
-  user.run_normal("\c")
+  "\c"
+  # user.run_normal("\c")
+
+# temporary, move elsewhere
+search deaf: "/def "
 
 # Editing
 add to end: user.run_normal("Go")
