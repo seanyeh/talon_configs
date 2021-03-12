@@ -33,7 +33,6 @@ shell
 arg
 args
 filename
-TODO,to do
 fixup
 id,I dee
 ids,I dees
@@ -54,3 +53,4 @@ nil
 formatter,for matter
 real,reel
 boolean,bullion
+jira,jura
