@@ -3,7 +3,7 @@ tag: terminal
 ellis: "ls\n"
 (cd | seedy | city): "cd "
 see pea: "cp"
-(make dir | mick dir): "mkdir -p "
+(make | mick) directory: "mkdir -p "
 parent: ".."
 (rg | orgy | archie): "rg "
 kill: key(ctrl-c)
