@@ -19,6 +19,9 @@ git commit message <user.text>: "git commit -m '{text}'"
 git commit: "GIT_EDITOR='nvim +startinsert' git commit\n"
 git diff (colour|color) words: "git diff --color-words "
 git diff: "git diff "
+# temporary, as "git diff" is super buggy
+git D: "git diff "
+
 git diff cached: "git diff --cached\n"
 git fetch: "git fetch\n"
 git fetch <user.text>: "git fetch {text}"
