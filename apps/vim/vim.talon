@@ -8,14 +8,12 @@ vim quit:
   key(esc)
   insert(":qa")
   key(enter)
-vim save:
+(file | vim) save:
   key(esc)
   insert(":w")
   key(enter)
-vim save quit:
-  key(esc)
-  insert("ZZ")
 well quench:
+  key(esc)
   key(esc)
   insert("ZZ")
 
