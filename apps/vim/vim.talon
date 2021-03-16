@@ -102,6 +102,8 @@ snip next: key(ctrl-j)
 
 park alt:
   "\\ra"
+run all: "\\sa"
+run current: "\\sc"
 
 macro: "@q"
 
