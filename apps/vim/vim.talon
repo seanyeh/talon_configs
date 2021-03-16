@@ -102,8 +102,11 @@ snip next: key(ctrl-j)
 
 park alt:
   "\\ra"
+
 run all: "\\sa"
 run current: "\\sc"
+spec deaf: "\\sd"
+spec parent: "\\sp"
 
 macro: "@q"
 
