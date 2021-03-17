@@ -8,14 +8,12 @@ vim quit:
   key(esc)
   insert(":qa")
   key(enter)
-vim save:
+(file | vim) save:
   key(esc)
   insert(":w")
   key(enter)
-vim save quit:
-  key(esc)
-  insert("ZZ")
 well quench:
+  key(esc)
   key(esc)
   insert("ZZ")
 
@@ -102,6 +100,11 @@ snip next: key(ctrl-j)
 
 park alt:
   "\\ra"
+
+run all: "\\sa"
+run current: "\\sc"
+spec deaf: "\\sd"
+spec parent: "\\sp"
 
 macro: "@q"
 
