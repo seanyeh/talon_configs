@@ -46,6 +46,9 @@ inside percent:
 inside quotes:
 	insert('""')
 	key(left)
+inside sing:
+	insert("''")
+	key(left)
 angle that: 
     text = edit.selected_text()
     user.paste("<{text}>")
