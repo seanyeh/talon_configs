@@ -235,7 +235,10 @@ keys = {k: k for k in simple_keys}
 keys.update(alternate_keys)
 ctx.lists["self.special_key"] = keys
 ctx.lists["self.function_key"] = {
-    f"F {default_f_digits[i]}": f"f{i + 1}" for i in range(12)
+    # Modified this because "file safe" was recognized as F5.
+    # May revert when speech engine improves
+    # f"F {default_f_digits[i]}": f"f{i + 1}" for i in range(12)
+    f"F key {default_f_digits[i]}": f"f{i + 1}" for i in range(12)
 }
 
 
