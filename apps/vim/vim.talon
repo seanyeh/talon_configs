@@ -12,7 +12,8 @@ vim quit:
   key(esc)
   insert(":w")
   key(enter)
-well quench:
+# "look" should be temporary, only to appease buggy speech engine
+(look | well) quench:
   key(esc)
   key(esc)
   insert("ZZ")
