@@ -8,7 +8,7 @@ vim quit:
   key(esc)
   insert(":qa")
   key(enter)
-(file | vim) save:
+(file | vim) (save | safe):
   key(esc)
   insert(":w")
   key(enter)
