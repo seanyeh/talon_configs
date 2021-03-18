@@ -10,6 +10,7 @@ vim quit:
   key(enter)
 (file | vim) (save | safe):
   key(esc)
+  key(esc)
   insert(":w")
   key(enter)
 # "look" should be temporary, only to appease buggy speech engine
@@ -91,6 +92,11 @@ delete last char: user.run_normal_smart("$x")
 
 complete:
   key(down)
+  key(enter)
+
+complete <number>:
+  key(down)
+  repeat(number - 1)
   key(enter)
 
 snip edit:
