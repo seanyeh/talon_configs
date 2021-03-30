@@ -17,7 +17,8 @@ vim quit:
 (look | well) quench:
   key(esc)
   key(esc)
-  insert("ZZ")
+  insert(":wq")
+  key(enter)
 
 buffer close:
   key(esc)
