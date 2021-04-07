@@ -69,3 +69,5 @@ console,consul
 upsert
 main,maine
 caller,collar
+SSO
+api,API
