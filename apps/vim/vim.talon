@@ -91,6 +91,11 @@ add to end: user.run_normal("Go")
 add to top: user.run_normal("ggO")
 delete last char: user.run_normal_smart("$x")
 
+# loosechange plugin
+change arg: 'cia'
+change key: 'cik'
+change value: 'civ'
+
 complete:
   key(down)
   key(enter)
