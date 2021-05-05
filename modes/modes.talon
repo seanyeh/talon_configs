@@ -13,8 +13,8 @@ sleep all:
     user.mouse_sleep()
     speech.disable()
     user.engine_sleep()
-talon sleep: speech.disable()
-talon wake: speech.enable()
+# talon sleep: speech.disable()
+# talon wake: speech.enable()
 # begin: these commands are really for windows & mac with Dragon.
 dragon mode: user.dragon_mode()
 talon mode: user.talon_mode()
