@@ -119,3 +119,5 @@ git add intent: "git add --intent-to-add "
 git menu add: "git customadd"
 git menu checkout: "git customcheckout"
 git menu checkout unwanted: "git customcheckoutunwanted"
+
+git auto fixup: "git_auto_fixup"
