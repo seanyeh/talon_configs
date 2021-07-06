@@ -58,6 +58,9 @@ rake migrate all: "rake db:migrate && RAILS_ENV=test rake db:migrate\n"
 rake DB rollback: "rake db:rollback STEP="
 rake test DB rollback: "RAILS_ENV=test rake db:rollback STEP="
 
+# npm
+npm install: "npm install\n"
+
 # Generic formatters
 adder <user.text>:
   insert(user.formatted_text(text, "SNAKE_CASE"))
