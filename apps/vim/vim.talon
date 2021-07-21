@@ -69,6 +69,12 @@ all files:
 alternate:
   user.run_normal(":call CustomAlternate()<cr>")
 
+nerd toggle:
+  key(ctrl-t)
+nerd find:
+  key(esc)
+  ":NERDTreeFind\n"
+
 auto format: "=="
 line: "gg"
 definition: "g]"
